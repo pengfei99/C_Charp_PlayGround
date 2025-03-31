@@ -103,8 +103,8 @@ public class SecureHubForm : Form
         };
 
         // Assemble components
-       // mainPanel.Controls.Add(_outputLabel);
-       //  mainPanel.Controls.Add(iconsPanel);
+        mainPanel.Controls.Add(_outputLabel);
+        mainPanel.Controls.Add(iconsPanel);
         mainPanel.Controls.Add(welcomeLabel);
         mainPanel.Controls.Add(logoPictureBox);
 
