@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>enable</ImplicitUsings>
+        <ApplicationIcon>C:\Users\PLIU\Documents\git\C_Charp_PlayGround\desktop_app\WinFormSimpleApp\WinFormSimpleApp\assets\bouclier.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
