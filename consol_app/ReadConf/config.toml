@@ -1,0 +1,17 @@
+﻿# Server Configuration
+[Server]
+Host = "localhost"
+Port = 8080
+EnableSsl = true
+
+# Database Configuration
+[Database]
+ConnectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;"
+MaxConnections = 100
+AllowedUsers = ["admin", "service", "readonly"]
+
+# Features Configuration
+[Features]
+EnableLogging = true
+LogLevel = "INFO"
+CacheTimeoutMinutes = 30
