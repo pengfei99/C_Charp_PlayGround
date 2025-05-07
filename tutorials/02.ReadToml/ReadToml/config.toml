@@ -1,0 +1,9 @@
+﻿title = "TOML config example"
+
+[owner]
+name = "John Doe"
+dob = 1979-05-27T07:32:00Z
+
+[org]
+name = "CASD"
+location = "Malakoff"

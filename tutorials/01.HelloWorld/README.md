@@ -24,7 +24,7 @@ You should see a new folder `TestApp`. It contains the following files:
 - Program.cs: a file to host application logic, you can have multiple class files or packages which contain class files. 
 - TestApp.csproj: Project config file  
 
-### 2.1 Add some logic to your application
+### 2.1 Adds some logic to your application
 
 Put the below code in `Program.cs`
 
