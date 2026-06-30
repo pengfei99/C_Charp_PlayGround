@@ -6,7 +6,7 @@ class Program
         {
             // Path to TOML configuration file
             string configPath = "C:\\Users\\PLIU\\Documents\\git\\C_Charp_PlayGround\\consol_app\\ReadConf\\config.toml";
-            
+            Console.WriteLine($"Read config file : {configPath}");
             // Create config reader
             ConfigReader reader = new ConfigReader(configPath);
 

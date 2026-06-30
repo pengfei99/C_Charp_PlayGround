@@ -22,7 +22,14 @@ namespace ReadConf;
                 
                 // Parse the TOML content
                 TomlDocument document = TomlParser.ParseFile(tomlContent);
-                
+
+                var entries = document.Entries;
+                foreach (var entry in entries)
+                {
+                    Console.WriteLine("Key = {0}, Value = {1}",
+                        entry.Key, entry.Value);
+                }
+
                 // Convert the TOML document to our configuration class
                 AppConfiguration config = TomletMain.To<AppConfiguration>(document);
                 
